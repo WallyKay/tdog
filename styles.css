@@ -1,0 +1,146 @@
+body {
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+#title {
+  background-color: #FF4C68;
+
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding-bottom: 50px;
+}
+
+.navbar-nav {
+  margin-right: 100px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.nav-link {
+  font-family: 'Montserrat-Light';
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.iphone {
+  transform: rotate(25deg);
+  width: 250px;
+  margin-left: 30px;
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 900px){
+  #title {
+    text-align: center;
+  }
+  
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.features-icon {
+  color: #ef8172;
+  padding-bottom: 10px;
+}
+
+.features-h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.features-paragraph {
+  color: #8f8f8f;
+}
+
+.features-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.testimonials-h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.pricing-h2 {
+  font-weight: bold;
+}
+
+.pricing-header {
+  font-weight: bold;
+}
+
+.price {
+  font-weight: bold;
+}
