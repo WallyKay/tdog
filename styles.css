@@ -70,7 +70,7 @@ h1 {
   right: 30%;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 900px){
   #title {
     text-align: center;
   }
